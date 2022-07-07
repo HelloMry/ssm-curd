@@ -11,7 +11,7 @@ import java.util.Map;
 public class Msg {
     private Integer code;
     private String msg;
-    private Map<String, Object> extend = new HashMap<>();
+    private Map<String, Object> extend =  new HashMap<>();
 
     public static Msg success() {
         Msg result = new Msg();
