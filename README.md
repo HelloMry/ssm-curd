@@ -4,7 +4,7 @@
 
 * 根据尚硅谷学习视频`尚硅谷SSM实战演练丨ssm整合快速开发CRUD`，使用`IDEA`编写
 
-
+![架构](imgs/image-20220707162228991.png)
 
 ## 2. 功能分解
 
@@ -23,7 +23,7 @@
 
      
 
-2. 查 **`@GetMapping("/emps")`**
+2. 查 **`@GetMapping("/emp")`**
 
    - 查询和分页显示
 
@@ -44,14 +44,14 @@
 4. 前端框架-`Bootstrap`
 5. 视图渲染-`Thymeleaf`
 6. 依赖管理-`Maven`
-7. 分页查询-`PageHelper（Mybatis的工具）`
+7. 分页查询-`Mybatis PageHelper`
 8. 逆向工程-`Mybatis Generator`
+9. 后端效验-`JSR303`
 
 
 
 ## 3. 页面图
 
-<img src="F:\1.atguigu\1.Java\code\idea-workspace\ssm-curd\img\image-20220707120920200.png" alt="image-20220707120920200" style="zoom:67%;" /> 
+![查询](imgs/image-20220707142316517.png)
 
-<img src="F:\1.atguigu\1.Java\code\idea-workspace\ssm-curd\img\image-20220707120942621.png" alt="image-20220707120942621" style="zoom:67%;" /> 
-
+![添加](imgs/image-20220707142344680.png)

@@ -87,7 +87,7 @@ public class EmployeeController {
         }
     }
 
-    @GetMapping("/emps")
+    @GetMapping("/emp")
     @ResponseBody
     public Msg getEmpsWithJson(@RequestParam(value = "pn", defaultValue = "1") Integer pn) {
         //在查询前调用，传入页码，以及每页的大小
